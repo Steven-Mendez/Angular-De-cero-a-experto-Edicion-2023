@@ -31,4 +31,7 @@ const { author, year } = audioPlayer.details;
 
 console.table({ song, anotherSong, duration, author, year });
 
+const [, , trunks = 'Not found']: string[] = ['Goku', 'Vegeta'];
+console.log('Personaje 3: ', trunks);
+
 export {};
